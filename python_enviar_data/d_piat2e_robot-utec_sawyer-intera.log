@@ -1,0 +1,5 @@
+2018-09-30 17:21:33,977   ibmiotf.device.Client      INFO    Connected successfully: d:piat2e:robot-utec:sawyer-intera
+2018-09-30 17:22:17,105   ibmiotf.device.Client      INFO    Connected successfully: d:piat2e:robot-utec:sawyer-intera
+2018-09-30 17:26:14,003   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 17:26:14,005   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 17:26:15,627   ibmiotf.device.Client      INFO    Connected successfully: d:piat2e:robot-utec:sawyer-intera

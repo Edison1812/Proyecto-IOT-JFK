@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CH-IOT JFK</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" >
+    <link href="lib/c3/c3.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <h2>CH-IOT JFK</h2>
+    </header>
+
+  <section>
+    <div class="container-fluid" candrop="true">
+        <div class="row">  
+          <div class="col-md-12" candrop="true">
+            <div class="panel  panel-primary">
+            <div class="panel-heading">Motor Speed Chart</div>
+            <div class="panel-body" candrop="true">
+              <!--- place holder for motor speed chart  -->
+              <div id="speedchart" ></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> 
+
+  <section>
+    <div class="container-fluid" candrop="true">
+        <div class="row">
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 1: Temperatura</div>
+              <div class="panel-body" candrop="true">
+                <!--- place holder for rpm gauge  -->
+                <div id="Sensor1" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 2: Presion</div>
+              <div class="panel-body" candrop="true">
+              <!--- place holder for accelerometer gauge  -->
+              <div id="Sensor2" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 3: Humedad 1</div>
+              <div class="panel-body" candrop="true">
+                <!--- place holder for rpm gauge  -->
+                <div id="Sensor3" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  
+    <section>
+    <div class="container-fluid" candrop="true">
+        <div class="row">
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 4: Humedad 2</div>
+              <div class="panel-body" candrop="true">
+                <!--- place holder for rpm gauge  -->
+                <div id="Sensor4" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 5: Lluvia</div>
+              <div class="panel-body" candrop="true">
+              <!--- place holder for accelerometer gauge  -->
+              <div id="Sensor5" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 6: PH</div>
+              <div class="panel-body" candrop="true">
+                <!--- place holder for rpm gauge  -->
+                <div id="Sensor6" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+    <script src="lib/d3/d3.min.js" charset="utf-8"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/d3-floorplan/d3.floorplan.min.js"></script>
+    <script src="lib/c3/c3.min.js"></script>
+    <script src="wiotpwidgets.min.js"></script>
+
+    <script type="text/javascript">
+        /// Add your scripts here
+        WIoTPWidget.CreateGauge("Sensor1","sensor", "tipo-arduino", "arduino-mega", "S1" ,{
+                label: {
+                   format: function(value, ratio) {
+                       return value;
+                   },
+                   show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default, can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+
+        WIoTPWidget.CreateGauge("Sensor2","sensor", "tipo-arduino", "arduino-mega", "S2" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+
+        WIoTPWidget.CreateGauge("Sensor3","sensor", "tipo-arduino", "arduino-mega", "S3" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+        WIoTPWidget.CreateGauge("Sensor4","sensor", "tipo-arduino", "arduino-mega", "S4" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+        WIoTPWidget.CreateGauge("Sensor5","sensor", "tipo-arduino", "arduino-mega", "S5" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+        WIoTPWidget.CreateGauge("Sensor6","sensor", "tipo-arduino", "arduino-mega", "S6" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+
+        WIoTPWidget.CreateChart("speedchart","sensor", "tipo-arduino", "arduino-mega",["S1", "S2", "S3", "S4", "S5", "S6"], [["q","q","q","q","q","q"]]);
+    </script>
+
+  </body>
+</html>

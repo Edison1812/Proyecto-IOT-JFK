@@ -29,3 +29,185 @@
 2018-09-30 18:14:34,167   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
 2018-09-30 18:14:34,168   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
 2018-09-30 18:14:35,792   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:18:08,901   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:18:26,299   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:18:52,888   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:21,085   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:21,088   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:22,700   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:22,700   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:25,312   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:25,338   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:26,956   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:26,960   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:28,605   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:28,608   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:30,242   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:30,246   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:31,891   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:31,900   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:33,578   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:33,578   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:35,256   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:35,256   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:36,927   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:36,927   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:38,559   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:38,563   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:40,178   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:40,181   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:41,773   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:41,773   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:44,391   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:44,394   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:47,045   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:47,065   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:48,693   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:48,694   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:50,331   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:50,332   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:51,960   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+ga
+2018-09-30 18:21:53,552   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:53,552   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:56,198   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:56,216   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:21:58,858   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:21:58,858   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:01,612   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:22:01,618   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:03,438   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:04,266   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:22:04,267   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:05,917   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:06,112   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:06,112   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:22:08,552   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:08,753   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:22:08,753   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:22:11,413   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:22:33,328   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:26:26,207   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:26:26,207   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:26:27,887   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:27:16,582   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:31:09,457   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:31:09,460   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:31:12,075   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:35:07,811   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:35:07,812   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:35:11,553   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:39:09,019   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:39:09,020   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:39:10,651   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:43:04,190   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:43:04,194   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:43:05,891   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:46:58,546   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:46:58,546   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:47:00,137   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:50:54,727   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:50:54,730   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:50:58,720   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:54:57,494   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:54:57,494   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:55:00,223   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 18:58:54,851   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:58:54,851   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 18:58:57,367   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:02:56,068   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:02:56,069   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:02:57,997   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:06:51,815   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:06:51,815   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:06:54,944   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:10:52,601   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:10:52,605   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:10:56,397   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:14:49,467   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:18:41,457   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:18:41,460   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:18:43,283   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:22:34,025   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:22:34,026   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:22:38,223   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:26:37,714   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:26:37,716   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:26:41,398   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:30:36,263   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:30:36,265   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:30:39,921   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:34:28,634   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:34:28,635   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:34:30,253   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:38:25,013   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:38:25,019   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:38:28,786   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:41:59,753   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:42:20,665   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:44:41,799   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:48:34,559   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:48:34,562   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:48:38,167   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:52:33,868   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:52:33,871   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:52:35,457   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 19:56:27,229   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:56:27,230   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 19:56:29,931   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:00:26,707   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:00:26,707   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:00:28,313   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:04:25,994   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:04:25,996   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:04:29,946   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:06:31,845   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:06:31,848   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:06:35,727   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:09:36,121   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:10:06,263   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:14:02,186   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:14:02,187   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:14:05,953   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:18:06,466   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:18:06,466   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:18:10,076   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:22:09,836   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:22:13,421   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:26:12,930   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:26:12,933   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:26:14,638   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:30:12,532   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:30:12,532   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:30:16,970   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:33:46,674   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:37:42,743   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:37:42,743   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:37:47,086   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:41:24,176   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:45:17,276   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:45:17,278   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:45:19,973   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:49:16,719   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:49:16,720   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:49:18,400   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:53:14,033   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:53:14,036   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:53:16,740   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 20:57:13,312   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:57:13,313   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 20:57:15,923   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:01:12,515   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:01:12,516   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:01:14,131   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:03:33,145   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:07:28,786   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:07:28,789   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:07:31,384   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:11:28,980   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:11:28,983   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:11:30,604   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:14:19,970   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:18:18,578   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:18:18,578   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 21:18:20,405   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega

@@ -5,6 +5,13 @@ SFE_BMP180 pressure;
 int valor_limite=500 ;
 int rainsense= A2;
 
+// Orden de los sensores
+// s1-Temperatura
+// s2-Presion
+// s3-Sensor de Humedad 1
+// s4-Sensor de Humedad 2
+// s5-Sensor de Lluvia
+
 void setup() {
   Serial.begin(9600);
   pinMode(rainsense, INPUT); // Sensor de lluvia

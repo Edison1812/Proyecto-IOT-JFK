@@ -23,21 +23,30 @@ def my_on_publish_callback():
 def sendIOT():
     ArduinoSerial = serial.Serial('com3',9600) #Create Serial port object called arduinoSerialData  
     value= ArduinoSerial.readline() #read the serial data and print it as line
+    print value[0]
+    print value[1]
+    print value[2]
+    print value[3]
+    print value[4]
+    print value[5]
+    print "nuevo"
     while(1):
         if running_status:
-            values = {'Temp': 10,#value[0],
-                    'Presion': 10,#value[1],
-                    'A0': 10,#value[2],
-                    'A1': 10,#value[3],
-                    'A2': 10}#value[4]}
+            values = {"S1": 10,
+            "S2": 20,
+            "S3": 20,
+            "S4": 20,
+            "S5": 20,
+            "S6": 20,
+            "rpm": "1.0"}
             success = device_client.publishEvent(
                 "sensor",
                 "json",
-                {'j': values},
+                {"d": values},
                 qos=0,
                 on_publish=my_on_publish_callback())
             #print data  
-            time.sleep(0.1)
+            time.sleep(0.33)
             if not success:
                 print("Not connected to WatsonIoTP")
 

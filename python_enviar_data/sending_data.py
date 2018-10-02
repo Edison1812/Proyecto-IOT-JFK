@@ -22,21 +22,16 @@ def my_on_publish_callback():
 
 def sendIOT():
     ArduinoSerial = serial.Serial('com3',9600) #Create Serial port object called arduinoSerialData  
-    value= ArduinoSerial.readline() #read the serial data and print it as line
-    print value[0]
-    print value[1]
-    print value[2]
-    print value[3]
-    print value[4]
-    print value[5]
-    print "nuevo"
+    
     while(1):
+    	v= ArduinoSerial.readline() #read the serial data and print it as line
+    	v=v.split()
         if running_status:
-            values = {"S1": 10,
-            "S2": 20,
-            "S3": 20,
-            "S4": 20,
-            "S5": 20,
+            values = {"S1": v[0],
+            "S2": v[1],
+            "S3": round(100*(1-float(v[2])/1023),1),
+            "S4": round(100*(1-float(v[3])/1023),1),
+            "S5": round(100*(1-float(v[4])/1023),1),
             "S6": 20,
             "rpm": "1.0"}
             success = device_client.publishEvent(

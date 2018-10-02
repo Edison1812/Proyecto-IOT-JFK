@@ -211,3 +211,18 @@ ga
 2018-09-30 21:18:18,578   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
 2018-09-30 21:18:18,578   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
 2018-09-30 21:18:20,405   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:31:24,509   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:40:51,730   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:41:56,704   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:47:39,026   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:50:17,710   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:50:58,749   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:52:29,719   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 21:53:42,224   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 22:19:08,319   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 22:19:10,598   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 22:24:04,158   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 22:32:24,394   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-09-30 22:52:36,273   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-09-30 23:01:45,532   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega
+2018-10-01 00:01:22,799   ibmiotf.device.Client      INFO    Connected successfully: d:q0n6zf:tipo-arduino:arduino-mega

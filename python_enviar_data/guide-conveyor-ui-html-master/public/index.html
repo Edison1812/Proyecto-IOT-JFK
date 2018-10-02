@@ -8,7 +8,7 @@
 
   <body>
     <header>
-      <h2>CH-IOT JFK</h2>
+      <h2><center>CH-IOT JFK</center></h2>
     </header>
 
   <section>
@@ -61,7 +61,7 @@
     </div>
   </section>
   
-    <section>
+  <section>
     <div class="container-fluid" candrop="true">
         <div class="row">
           <div class="col-md-4" candrop="true">
@@ -95,6 +95,24 @@
     </div>
   </section>
 
+  <section>
+    <div class="container-fluid" candrop="true">
+        <div class="row">
+          <center>
+          <div class="col-md-6" candrop="true">
+            <div class="panel  panel-primary">
+              <div class="panel-heading">Sensor 7: Flujometro</div>
+              <div class="panel-body" candrop="true">
+                <!--- place holder for rpm gauge  -->
+                <div id="Sensor7" ></div>
+              </div>
+            </div>
+          </div>
+          </center>
+      </div>
+    </div>
+  </section>
+
     <script src="lib/d3/d3.min.js" charset="utf-8"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -112,7 +130,7 @@
                    show: true // to turn off the min/max labels.
                 },
                 min: 0.0, // 0 is default, can handle negative min e.g. vacuum / voltage / current flow / rate of change
-                max: 100.0, // 100 is default
+                max: 50.0, // 100 is default
                 units: 'Grados'
                 },['#FF0000', '#F97600', '#F6C600', '#60B044']);
 
@@ -172,6 +190,18 @@
                 max: 100.0, // 100 is default
                 units: 'Grados'//,
                 },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+        WIoTPWidget.CreateGauge("Sensor7","sensor", "tipo-arduino", "arduino-mega", "S7" ,{
+                label: {
+                  format: function(value, ratio) {
+                    return value;
+                  },
+                  show: true // to turn off the min/max labels.
+                },
+                min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
+                max: 100.0, // 100 is default
+                units: 'Grados'//,
+                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+
 
         WIoTPWidget.CreateChart("speedchart","sensor", "tipo-arduino", "arduino-mega",["S1", "S2", "S3", "S4", "S5", "S6"], [["q","q","q","q","q","q"]]);
     </script>

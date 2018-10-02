@@ -4,7 +4,7 @@ SFE_BMP180 pressure;
 #define ALTITUDE 95.0
 int valor_limite=500 ;
 int rainsense= A2;
-int ph_pin = A0; 
+int ph_pin = A3; 
 int m_7 = 745; //PH-agua
 int m_13 = 580;//PH-legia
 
@@ -95,13 +95,13 @@ void loop() {
   }
   prom = prom/20;
   float Po = 7 - ((measure - m_7 ) * 6 / ( m_7 - m_13 ));
-  Serial.print(Po, 2);
-  Serial.print(" ");
+  Serial.println(Po, 2);
+  //Serial.print(" ");
    
-  float frequency = GetFrequency(); // obtener frecuencia en Hz
-  float flow_Lmin = frequency * factorK;// calcular caudal L/min
+  //float frequency = GetFrequency(); // obtener frecuencia en Hz
+  //float flow_Lmin = frequency * factorK;// calcular caudal L/min
   
-  Serial.println(flow_Lmin, 2);
+  //Serial.println(flow_Lmin, 2);
 
   if(analogRead(A0) < valor_limite or analogRead(A1) < valor_limite or  analogRead(A7) < 50) {  //Si la medida de humedad es mayor de valor limite
     digitalWrite(13, HIGH) ;           //Enciende el led conectado al Pin 13 
@@ -117,5 +117,5 @@ void loop() {
   else {
     digitalWrite(11, LOW) ; 
     }
-  delay(250);
+  delay(50);
 }

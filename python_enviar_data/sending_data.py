@@ -33,7 +33,7 @@ def sendIOT():
             "S4": round(100*(1-float(v[3])/1023),1),
             "S5": round(100*(1-float(v[4])/1023),1),
             "S6": float(v[5]),
-            "S7": float(v[6])}
+            "S7": float(0)}
             success = device_client.publishEvent(
                 "sensor",
                 "json",

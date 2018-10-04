@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CH-IOT JFK</title>
+    <title style="color:blue;"> CH-IOT JFK</title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" >
     <link href="lib/c3/c3.min.css" rel="stylesheet" type="text/css">
+    <style>
+    figure {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      }
+    </style>
   </head>
 
   <body>
     <header>
       <h2><center>CH-IOT JFK</center></h2>
+      <figure>
+        <img src="jfk.png" alt="The Pulpit Rock" width="114" height="80" class="center">
+      </figure>
     </header>
 
   <section>
@@ -16,7 +35,7 @@
         <div class="row">  
           <div class="col-md-12" candrop="true">
             <div class="panel  panel-primary">
-            <div class="panel-heading">Motor Speed Chart</div>
+            <div class="panel-heading">Análisis de sensores IOT</div>
             <div class="panel-body" candrop="true">
               <!--- place holder for motor speed chart  -->
               <div id="speedchart" ></div>
@@ -121,6 +140,7 @@
     <script src="wiotpwidgets.min.js"></script>
 
     <script type="text/javascript">
+
         /// Add your scripts here
         WIoTPWidget.CreateGauge("Sensor1","sensor", "tipo-arduino", "arduino-mega", "S1" ,{
                 label: {
@@ -132,7 +152,7 @@
                 min: 0.0, // 0 is default, can handle negative min e.g. vacuum / voltage / current flow / rate of change
                 max: 50.0, // 100 is default
                 units: 'Grados'
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                },['#1a93ef']);
 
         WIoTPWidget.CreateGauge("Sensor2","sensor", "tipo-arduino", "arduino-mega", "S2" ,{
                 label: {
@@ -143,8 +163,8 @@
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
                 max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                units: 'bar'//,
+                },['#1a93ef']);
 
         WIoTPWidget.CreateGauge("Sensor3","sensor", "tipo-arduino", "arduino-mega", "S3" ,{
                 label: {
@@ -155,8 +175,8 @@
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
                 max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                units: 'Porcentaje (%)'//,
+                },['#1a93ef']);
         WIoTPWidget.CreateGauge("Sensor4","sensor", "tipo-arduino", "arduino-mega", "S4" ,{
                 label: {
                   format: function(value, ratio) {
@@ -166,8 +186,8 @@
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
                 max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                units: 'Porcentaje (%)'//,
+                },['#1a93ef']);
         WIoTPWidget.CreateGauge("Sensor5","sensor", "tipo-arduino", "arduino-mega", "S5" ,{
                 label: {
                   format: function(value, ratio) {
@@ -177,8 +197,8 @@
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
                 max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                units: 'Porcentaje (%)'//,
+                },['#1a93ef']);
         WIoTPWidget.CreateGauge("Sensor6","sensor", "tipo-arduino", "arduino-mega", "S6" ,{
                 label: {
                   format: function(value, ratio) {
@@ -187,9 +207,9 @@
                   show: true // to turn off the min/max labels.
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
-                max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                max: 14.0, // 100 is default
+                units: 'Escala PH'//,
+                },['#1a93ef']);
         WIoTPWidget.CreateGauge("Sensor7","sensor", "tipo-arduino", "arduino-mega", "S7" ,{
                 label: {
                   format: function(value, ratio) {
@@ -198,9 +218,9 @@
                   show: true // to turn off the min/max labels.
                 },
                 min: 0.0, // 0 is default,can handle negative min e.g. vacuum / voltage / current flow / rate of change
-                max: 100.0, // 100 is default
-                units: 'Grados'//,
-                },['#FF0000', '#F97600', '#F6C600', '#60B044']);
+                max: 20.0, // 100 is default
+                units: 'm3/s'//,
+                },['#1a93ef']);
 
 
         WIoTPWidget.CreateChart("speedchart","sensor", "tipo-arduino", "arduino-mega",["S1", "S2", "S3", "S4", "S5", "S6"], [["q","q","q","q","q","q"]]);
